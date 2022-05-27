@@ -481,6 +481,7 @@ img {
   position: relative;
   transform: scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 40px;
 }
 
 .close-btn {
@@ -499,16 +500,16 @@ img {
   cursor: pointer;
 }
 
-.modal-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
+.form-title {
+  display: block;
+  font-family: Roboto;
+  font-size: 20px;
   font-weight: 700;
-  line-height: 1.14;
+  line-height: 23px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+  text-align: center;
+  color: var(--primary-text-color);
+  margin-bottom: 12px;
 }
 
 /* Блок інформації про принципи та політику Студії */

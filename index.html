@@ -606,7 +606,56 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
-        <p class="modal-text">Відчуваю, що тут буде форма :)</p>
+
+        <strong class="form-title">Оставьте свои данные, мы вам перезвоним</strong>
+        <form class="modal-form">
+          <label class="form-group">
+            <span class="form-description">Имя</span>
+            <input class="form-input" type="text" name="client-name" />
+            <span class="warning"></span>
+            <span class="error"></span>
+            <svg class="form-icon" width="11" height="11">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </label>
+          <label class="form-group">
+            <span class="form-description">Телефон</span>
+            <input class="form-input" type="phone" name="client-phone" />
+            <span class="warning"></span>
+            <span class="error"></span>
+            <svg class="form-icon" width="11" height="11">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </label>
+          <label class="form-group">
+            <span class="form-description">Почта</span>
+            <input class="form-input" type="mail" name="client-mail" />
+            <span class="warning"></span>
+            <span class="error"></span>
+            <svg class="form-icon" width="11" height="11">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </label>
+          <label class="form-group">
+            <span class="form-description">Комментарий</span>
+            <input class="form-input" type="text" name="client-message" />
+            <span class="warning"></span>
+            <span class="error"></span>
+          </label>
+          <label class="form-policy">
+            <input type="checkbox" />
+            <span class="custom-checkbox">
+              <svg class="custom-chekbox-icon" width="" height="">
+                <use href="./images/icons.svg#close"></use>
+              </svg>
+            </span>
+            <span class="form-policy-description"
+              >Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a></span
+            >
+          </label>
+
+          <button class="form-submit-button" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
