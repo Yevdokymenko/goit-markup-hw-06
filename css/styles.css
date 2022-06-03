@@ -679,6 +679,10 @@ img {
   border: 1px solid var(--accent-color);
 }
 
+.modal-form-checkbox {
+  transition: border var(--animation);
+}
+
 .modal-form-checkbox-policy {
   font-weight: 400;
   font-size: 14px;
@@ -709,6 +713,10 @@ img {
   background-position: center;
   outline: transparent;
   border: none;
+}
+
+.modal-form-checkbox:focus + .modal-form-checkbox-policy::before {
+  border: 2px solid var(--accent-color);
 }
 
 .modal-form-policy-link {
