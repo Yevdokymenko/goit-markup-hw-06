@@ -634,11 +634,13 @@ img {
   transition: border var(--animation);
 }
 
-.form-input:focus {
+.form-input:focus,
+.form-input:hover {
   border: 1px solid var(--accent-color);
 }
 
-.form-input:focus + .form-icon {
+.form-input:focus + .form-icon,
+.form-input:hover + .form-icon {
   fill: var(--accent-color);
 }
 
@@ -672,7 +674,8 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-input-comment:focus {
+.form-input-comment:focus,
+.form-input-comment:hover {
   border: 1px solid var(--accent-color);
 }
 
@@ -682,6 +685,7 @@ img {
   line-height: 1.714;
   color: var(--secondary-text-color);
 }
+
 .modal-form-checkbox-policy::before {
   display: inline-block;
   vertical-align: middle;
